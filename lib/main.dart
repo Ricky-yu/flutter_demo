@@ -4,6 +4,7 @@ import 'bottom_navigation_widget.dart';
 class View {
   final String title;
   final StatefulWidget taget;
+
   View(this.title, this.taget);
 }
 
@@ -11,8 +12,7 @@ void main() {
   runApp(MaterialApp(
     title: 'upload data',
     home: Views(
-      views: [View('BottomNavigationWidget', BottomNavigationWidget())]
-    ),
+        views: [View('BottomNavigationWidget', BottomNavigationWidget())]),
   ));
 }
 
@@ -38,11 +38,15 @@ class Views extends StatelessWidget {
           },
         ));
   }
-  navigateToItemDetail(BuildContext context, int index) async{ //async是启用异步方法
-    final result = await Navigator.push(//等待
+
+  navigateToItemDetail(BuildContext context, int index) async {
+    //async是启用异步方法
+    final result = await Navigator.push(
+        //等待
         context,
-        MaterialPageRoute(builder: (context)=> views[index].taget, )
-    );
+        MaterialPageRoute(
+          builder: (context) => views[index].taget,
+        ));
   }
 }
 

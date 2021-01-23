@@ -4,8 +4,8 @@ import 'package:flutter_demo/email_screen.dart';
 import 'package:flutter_demo/airplay_screen.dart';
 import 'package:flutter_demo/pages_screen.dart';
 
-class  BottomNavigationWidget extends StatefulWidget {
-   createState() => BottomNavigationWidgetState();
+class BottomNavigationWidget extends StatefulWidget {
+  createState() => BottomNavigationWidgetState();
 }
 
 class BottomNavigationWidgetState extends State<BottomNavigationWidget> {
@@ -14,7 +14,7 @@ class BottomNavigationWidgetState extends State<BottomNavigationWidget> {
   List<Widget> list = List();
 
   @override
-  void initState(){
+  void initState() {
     list
       ..add(HomeScreen())
       ..add(EmailScreen())
@@ -34,12 +34,11 @@ class BottomNavigationWidgetState extends State<BottomNavigationWidget> {
                 Icons.home,
                 color: BOTTOMNAVIGATIONCOLOR,
               ),
-            // ignore: deprecated_member_use
-            title: Text(
-              'Home',
-              style: TextStyle(color: BOTTOMNAVIGATIONCOLOR),
-            )
-          ),
+              // ignore: deprecated_member_use
+              title: Text(
+                'Home',
+                style: TextStyle(color: BOTTOMNAVIGATIONCOLOR),
+              )),
           BottomNavigationBarItem(
               icon: Icon(
                 Icons.email,
@@ -49,8 +48,7 @@ class BottomNavigationWidgetState extends State<BottomNavigationWidget> {
               title: Text(
                 'email',
                 style: TextStyle(color: BOTTOMNAVIGATIONCOLOR),
-              )
-          ),
+              )),
           BottomNavigationBarItem(
               icon: Icon(
                 Icons.pages,
@@ -60,8 +58,7 @@ class BottomNavigationWidgetState extends State<BottomNavigationWidget> {
               title: Text(
                 'Pages',
                 style: TextStyle(color: BOTTOMNAVIGATIONCOLOR),
-              )
-          ),
+              )),
           BottomNavigationBarItem(
               icon: Icon(
                 Icons.airplay,
@@ -71,11 +68,10 @@ class BottomNavigationWidgetState extends State<BottomNavigationWidget> {
               title: Text(
                 'AirPlay',
                 style: TextStyle(color: BOTTOMNAVIGATIONCOLOR),
-              )
-          ),
+              )),
         ],
         currentIndex: this.currentIndex,
-        onTap: (int index){
+        onTap: (int index) {
           setState(() {
             this.currentIndex = index;
           });
