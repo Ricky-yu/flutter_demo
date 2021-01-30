@@ -12,11 +12,13 @@ class View {
 void main() {
   runApp(MaterialApp(
     title: 'upload data',
-    home: Views(
-        views: [
-          View('BottomNavigationWidget', BottomNavigationWidget()),
-          View('BottomFloatingAuctionButtonWidget', BottomFabWidget())
-        ]),
+    theme: ThemeData(
+      primarySwatch: Colors.lightBlue,
+    ),
+    home: Views(views: [
+      View('BottomNavigationWidget', BottomNavigationWidget()),
+      View('BottomFloatingAuctionButtonWidget', BottomFabWidget())
+    ]),
   ));
 }
 
