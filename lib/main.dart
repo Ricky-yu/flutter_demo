@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'bottom_navigation_widget.dart';
+import 'BottomNavigation/bottom_navigation_widget.dart';
 
 class View {
   final String title;
