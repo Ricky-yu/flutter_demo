@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'BottomNavigation/BottomNavigationWidget.dart';
 import 'BottomFloatingActionButton/BottomFAB.dart';
+import 'CustomTransition/Pages.dart';
 
 class View {
   final String title;
@@ -17,7 +18,8 @@ void main() {
     ),
     home: Views(views: [
       View('BottomNavigationWidget', BottomNavigationWidget()),
-      View('BottomFloatingAuctionButtonWidget', BottomFabWidget())
+      View('BottomFloatingAuctionButtonWidget', BottomFabWidget()),
+      View('Transition', Pages())
     ]),
   ));
 }
