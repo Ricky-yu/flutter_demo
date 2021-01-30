@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_demo/BottomNavigation/home_screen.dart';
-import 'package:flutter_demo/BottomNavigation/email_screen.dart';
-import 'package:flutter_demo/BottomNavigation/airplay_screen.dart';
-import 'package:flutter_demo/BottomNavigation/pages_screen.dart';
+import 'package:flutter_demo/BottomNavigation/HomeScreen.dart';
+import 'package:flutter_demo/BottomNavigation/EmailScreen.dart';
+import 'package:flutter_demo/BottomNavigation/AirplayScreen.dart';
+import 'package:flutter_demo/BottomNavigation/PagesScreen.dart';
 
 class BottomNavigationWidget extends StatefulWidget {
   createState() => BottomNavigationWidgetState();

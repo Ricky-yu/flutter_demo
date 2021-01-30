@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'BottomNavigation/bottom_navigation_widget.dart';
+import 'BottomNavigation/BottomNavigationWidget.dart';
+import 'BottomFloatingActionButton/BottomFAB.dart';
 
 class View {
   final String title;
@@ -11,8 +12,13 @@ class View {
 void main() {
   runApp(MaterialApp(
     title: 'upload data',
-    home: Views(
-        views: [View('BottomNavigationWidget', BottomNavigationWidget())]),
+    theme: ThemeData(
+      primarySwatch: Colors.lightBlue,
+    ),
+    home: Views(views: [
+      View('BottomNavigationWidget', BottomNavigationWidget()),
+      View('BottomFloatingAuctionButtonWidget', BottomFabWidget())
+    ]),
   ));
 }
 
