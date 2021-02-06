@@ -3,6 +3,7 @@ import 'BottomNavigation/BottomNavigationWidget.dart';
 import 'BottomFloatingActionButton/BottomFAB.dart';
 import 'CustomTransition/Pages.dart';
 import 'FrostedGlass/FrostedGlass.dart';
+import 'KeepAlive/KeepAliveData.dart';
 
 class View {
   final String title;
@@ -21,7 +22,8 @@ void main() {
       View('BottomNavigationWidget', BottomNavigationWidget()),
       View('BottomFloatingAuctionButtonWidget', BottomFabWidget()),
       View('Transition', Pages()),
-      View('FrostedGlassDemo', FrostedGlass())
+      View('FrostedGlassDemo', FrostedGlass()),
+      View('KeepAlive', KeepAliveData())
     ]),
   ));
 }
