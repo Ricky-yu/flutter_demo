@@ -1,21 +1,21 @@
 import 'package:flutter/material.dart';
 import 'dart:ui';
 
-class FrostedGlassDemo extends StatefulWidget {
+class FrostedGlass extends StatefulWidget {
   @override
   _PagesState createState() => _PagesState();
 }
 
-class _PagesState extends State<FrostedGlassDemo> {
+class _PagesState extends State<FrostedGlass> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: FrostedGlass(),
+      body: Main(),
     );
   }
 }
 
-class FrostedGlass extends StatelessWidget {
+class Main extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
