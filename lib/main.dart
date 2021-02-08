@@ -5,6 +5,7 @@ import 'CustomTransition/Pages.dart';
 import 'FrostedGlass/FrostedGlass.dart';
 import 'KeepAlive/KeepAliveData.dart';
 import 'SearchBar/SearchBar.dart';
+import 'Wrap/WrapList.dart';
 
 class View {
   final String title;
@@ -25,7 +26,8 @@ void main() {
       View('Transition', Pages()),
       View('FrostedGlassDemo', FrostedGlass()),
       View('KeepAlive', KeepAliveData()),
-      View('SearchBar', SearchBar())
+      View('SearchBar', SearchBar()),
+      View('WrapList', WrapList())
     ]),
   ));
 }
