@@ -6,6 +6,7 @@ import 'FrostedGlass/FrostedGlass.dart';
 import 'KeepAlive/KeepAliveData.dart';
 import 'SearchBar/SearchBar.dart';
 import 'Wrap/WrapList.dart';
+import 'ExpansionPaneList/ExpansionPaneList.dart';
 
 class View {
   final String title;
@@ -27,7 +28,8 @@ void main() {
       View('FrostedGlassDemo', FrostedGlass()),
       View('KeepAlive', KeepAliveData()),
       View('SearchBar', SearchBar()),
-      View('WrapList', WrapList())
+      View('WrapList', WrapList()),
+      View('ExpansionList', ExpansionPaneList())
     ]),
   ));
 }
