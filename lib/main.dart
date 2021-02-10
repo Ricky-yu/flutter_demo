@@ -7,6 +7,7 @@ import 'KeepAlive/KeepAliveData.dart';
 import 'SearchBar/SearchBar.dart';
 import 'Wrap/WrapList.dart';
 import 'ExpansionPaneList/ExpansionPaneList.dart';
+import 'Clip/Clip.dart';
 
 class View {
   final String title;
@@ -18,6 +19,7 @@ class View {
 void main() {
   runApp(MaterialApp(
     title: 'upload data',
+    debugShowCheckedModeBanner: false,
     theme: ThemeData(
       primarySwatch: Colors.lightBlue,
     ),
@@ -29,7 +31,8 @@ void main() {
       View('KeepAlive', KeepAliveData()),
       View('SearchBar', SearchBar()),
       View('WrapList', WrapList()),
-      View('ExpansionList', ExpansionPaneList())
+      View('ExpansionList', ExpansionPaneList()),
+      View('Clip', Clip())
     ]),
   ));
 }
