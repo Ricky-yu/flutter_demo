@@ -8,6 +8,7 @@ import 'SearchBar/SearchBar.dart';
 import 'Wrap/WrapList.dart';
 import 'ExpansionPaneList/ExpansionPaneList.dart';
 import 'Clip/Clip.dart';
+import 'Draggable/DraggableDemo.dart';
 
 class View {
   final String title;
@@ -32,7 +33,8 @@ void main() {
       View('SearchBar', SearchBar()),
       View('WrapList', WrapList()),
       View('ExpansionList', ExpansionPaneList()),
-      View('Clip', Clip())
+      View('Clip', Clip()),
+      View('Draggable', DraggableDemo())
     ]),
   ));
 }
