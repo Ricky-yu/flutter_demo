@@ -53,11 +53,17 @@ class Views extends StatelessWidget {
         body: ListView.builder(
           itemCount: views.length,
           itemBuilder: (context, index) {
-            return ListTile(
-                title: Text(views[index].title),
-                onTap: () {
-                  navigateToItemDetail(context, index);
-                });
+            return new Card(
+                child: new Container(
+              alignment: Alignment.centerLeft,
+              margin: EdgeInsets.symmetric(horizontal: 10),
+              height: 50,
+              child: ListTile(
+                  title: Text(views[index].title),
+                  onTap: () {
+                    navigateToItemDetail(context, index);
+                  }),
+            ));
           },
         ));
   }
