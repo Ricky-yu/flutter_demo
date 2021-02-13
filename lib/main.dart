@@ -10,6 +10,7 @@ import 'ExpansionPaneList/ExpansionPaneList.dart';
 import 'Clip/Clip.dart';
 import 'Draggable/DraggableDemo.dart';
 import 'Honor/Honor.dart';
+import 'AlertDialog/AlertDialogDemo.dart';
 
 class View {
   final String title;
@@ -36,7 +37,8 @@ void main() {
       View('ExpansionList', ExpansionPaneList()),
       View('Clip', Clip()),
       View('Draggable', DraggableDemo()),
-      View('Honor', Honor())
+      View('Honor', Honor()),
+      View('AlertDialog', AlertDialogDemo())
     ]),
   ));
 }
