@@ -11,6 +11,7 @@ import 'Clip/Clip.dart';
 import 'Draggable/DraggableDemo.dart';
 import 'Honor/Honor.dart';
 import 'AlertDialog/AlertDialogDemo.dart';
+import 'BatteryLevel/BatteryLevel.dart';
 
 class View {
   final String title;
@@ -38,7 +39,8 @@ void main() {
       View('Clip', Clip()),
       View('Draggable', DraggableDemo()),
       View('Honor', Honor()),
-      View('AlertDialog', AlertDialogDemo())
+      View('AlertDialog', AlertDialogDemo()),
+      View('BatteryLevel', BatteryLevel())
     ]),
   ));
 }
