@@ -12,6 +12,7 @@ import 'Draggable/DraggableDemo.dart';
 import 'Honor/Honor.dart';
 import 'AlertDialog/AlertDialogDemo.dart';
 import 'BatteryLevel/BatteryLevel.dart';
+import 'CollapsingToolbar/CollapsingToolbar.dart';
 
 class View {
   final String title;
@@ -40,7 +41,8 @@ void main() {
       View('Draggable', DraggableDemo()),
       View('Honor', Honor()),
       View('AlertDialog', AlertDialogDemo()),
-      View('BatteryLevel', BatteryLevel())
+      View('BatteryLevel', BatteryLevel()),
+      View('CollapsingToolbar', CollapsingToolbar())
     ]),
   ));
 }
@@ -59,7 +61,7 @@ class Views extends StatelessWidget {
         body: ListView.builder(
           itemCount: views.length,
           itemBuilder: (context, index) {
-              return new Card(
+            return new Card(
                 child: new Container(
               alignment: Alignment.centerLeft,
               margin: EdgeInsets.symmetric(horizontal: 10),
