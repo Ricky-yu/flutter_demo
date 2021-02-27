@@ -13,6 +13,7 @@ import 'Honor/Honor.dart';
 import 'AlertDialog/AlertDialogDemo.dart';
 import 'BatteryLevel/BatteryLevel.dart';
 import 'CollapsingToolbar/CollapsingToolbar.dart';
+import 'StickExpendPage/StickSliverListPage.dart';
 
 class View {
   final String title;
@@ -42,7 +43,8 @@ void main() {
       View('Honor', Honor()),
       View('AlertDialog', AlertDialogDemo()),
       View('BatteryLevel', BatteryLevel()),
-      View('CollapsingToolbar', CollapsingToolbar())
+      View('CollapsingToolbar', CollapsingToolbar()),
+      View('StickSliverList', StickSliverListPage())
     ]),
   ));
 }
