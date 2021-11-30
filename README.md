@@ -1,16 +1,13 @@
 # flutter_demo
 
-A new Flutter application.
+Flutter UI Study
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# photo
+<p align="left">
+  <img src="https://github.com/Ricky-yu/flutter_demo/blob/master/DemoImage/Simulator%20Screen%20Shot%20-%20iPhone%208%20-%202021-11-30%20at%2021.57.52.png" width="250" title="hover text">
+  <img src="https://github.com/Ricky-yu/flutter_demo/blob/master/DemoImage/Simulator%20Screen%20Shot%20-%20iPhone%208%20-%202021-11-30%20at%2021.57.58.png" width="250" title="hover text">
+  <img src="https://github.com/Ricky-yu/flutter_demo/blob/master/DemoImage/Simulator%20Screen%20Shot%20-%20iPhone%208%20-%202021-11-30%20at%2021.59.01.png" width="250" title="hover text">
+  <img src="https://github.com/Ricky-yu/flutter_demo/blob/master/DemoImage/Simulator%20Screen%20Shot%20-%20iPhone%208%20-%202021-11-30%20at%2021.59.17.png" width="250" title="hover text">
+  <img src="https://github.com/Ricky-yu/flutter_demo/blob/master/DemoImage/Simulator%20Screen%20Shot%20-%20iPhone%208%20-%202021-11-30%20at%2021.59.36.png" width="250" title="hover text">
+</p>
